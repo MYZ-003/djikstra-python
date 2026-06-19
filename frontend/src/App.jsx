@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 
+// Change this:
 const API_BASE_URL = "https://onrender.com"; 
+
+// To this:
+const API_BASE = "https://djikstra-python-production.up.railway.app";
 
 const C = {
   purple50:  "#EEEDFE", purple100: "#CECBF6", purple200: "#AFA9EC",
